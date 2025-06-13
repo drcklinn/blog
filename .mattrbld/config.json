@@ -1,0 +1,69 @@
+{
+  "autoquotes": null,
+  "brandColors": [],
+  "corsProxy": "/corsprox",
+  "name": "blog",
+  "sidebar": [
+    {
+      "label": "The sidebar has not yet been configured for this project"
+    },
+    {
+      "icon": "wrench-and-driver",
+      "label": "Configure now",
+      "target": {
+        "name": "Project.Settings",
+        "query": {
+          "tab": "sidebar"
+        }
+      },
+      "onlyPrivileged": true
+    },
+    {
+      "separator": true
+    },
+    {
+      "label": "Dashboard",
+      "icon": "grid",
+      "target": {
+        "name": "Project"
+      },
+      "protected": true
+    },
+    {
+      "label": "Media Library",
+      "icon": "image-stack",
+      "target": {
+        "name": "Project.MediaLibrary"
+      },
+      "protected": true
+    },
+    {
+      "label": "Settings",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true
+    }
+  ],
+  "slugifyOptions": {
+    "lowercase": true
+  },
+  "customRoles": [],
+  "draftsDir": "/.mattrbld/drafts",
+  "previewUrl": null,
+  "languages": [],
+  "media": {
+    "advanced": false,
+    "customFields": null,
+    "dir": null,
+    "maxSize": null,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}
